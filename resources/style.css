@@ -1,0 +1,40 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://c8.alamy.com/compes/2p7cjpe/festival-popular-festividades-o-feria-en-pucara-region-puno-peru-vintage-o-grabado-historico-e-ilustracion-1862-2p7cjpe.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #00000078;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #000000;
+    margin-top: 5px;
+  }
+    
+  #listaPeliculas img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  p {
+    color: #0004ff75;
+  }
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
