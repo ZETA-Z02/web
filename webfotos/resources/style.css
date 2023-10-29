@@ -8,7 +8,6 @@ body{
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://i.ytimg.com/vi/dD8WfixA7xo/maxresdefault.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -19,48 +18,21 @@ header{
   align-items: center;
   height: 6.5em;
   width: 100%;
-  background: #ffffffbe;
+  background: #ffffff;
 }
 header .logo{
-  background-color: #fff;
-  height: 4em;
-  width: 20%;
-
+  height: 6em;
+  transform: translateX(-400px) translateY(0);
 }
 header .logo img{
+  justify-content: start;
   height: 100%;
   width: auto;
   background: #000;
   cursor: pointer;
 }
-
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #00000078;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #000000;
-    margin-top: 5px;
-  }
-    
-  #listaPeliculas img {
-    margin: 10px;
-    max-height: 250px;
-  }
-  p {
-    color: #0004ff75;
-  }
-  .form-wrapper {
-    margin: 0 0 15px;
-  }
-  
-  .form-wrapper button:hover {
-    opacity: 0.8;
-  }
-  
+main{
+  height: 75em;
+  background-image: url("https://i.ytimg.com/vi/dD8WfixA7xo/maxresdefault.jpg");
+  background-size: cover;
+}
