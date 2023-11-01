@@ -22,7 +22,6 @@ header{
 }
 header .logo{
   height: 6em;
-  transform: translateX(-400px) translateY(0);
 }
 header .logo img{
   justify-content: start;
@@ -30,6 +29,35 @@ header .logo img{
   width: auto;
   background: #000;
   cursor: pointer;
+}
+.contenido{
+  display: flex;
+  height: 100px;
+  align-items: flex-end;
+
+}
+.contenido nav{
+  width: 30em;
+  height: auto;
+  background-color: #02ffbbc0;
+}
+nav ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex; /* Cambia el comportamiento a un diseño de caja flexible */
+  justify-content: space-around; /* Alinea los elementos horizontalmente */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+nav li {
+  margin: 0; /* Asegúrate de que no haya ningún margen */
+}
+
+nav a {
+  text-decoration: none; /* Elimina la subraya predeterminada de los enlaces */
+  color: #000;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
 }
 main{
   height: 75em;
